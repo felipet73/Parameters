@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command S10Cuantificacion</Text>
+    <Description>Some description for S10Cuantificacion</Description>
+    <Assembly>S10Cuantificacion.dll</Assembly>
+    <FullClassName>S10Cuantificacion.Command</FullClassName>
+    <ClientId>f88d5cb1-dc0d-401c-bffb-68f5a624042c</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application S10Cuantificacion</Name>
+    <Assembly>S10Cuantificacion.dll</Assembly>
+    <FullClassName>S10Cuantificacion.App</FullClassName>
+    <ClientId>877b59a0-7cba-41fa-942c-a4bd61a3cad9</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
